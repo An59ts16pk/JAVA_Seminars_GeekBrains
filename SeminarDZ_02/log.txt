@@ -1,0 +1,115 @@
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 1)  ->  mean 6 (index: 2)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 6 (index: 1) swap mean 19 (index: 2)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 2)  ->  mean 13 (index: 3)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 13 (index: 2) swap mean 19 (index: 3)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 3)  ->  mean 13 (index: 4)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 13 (index: 3) swap mean 19 (index: 4)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 4)  ->  mean 9 (index: 5)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 9 (index: 4) swap mean 19 (index: 5)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 5)  ->  mean 12 (index: 6)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 12 (index: 5) swap mean 19 (index: 6)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 6)  ->  mean 6 (index: 7)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 6 (index: 6) swap mean 19 (index: 7)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 7)  ->  mean 14 (index: 8)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 14 (index: 7) swap mean 19 (index: 8)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 0: mean 19 (index: 8)  ->  mean 17 (index: 9)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 0: mean 17 (index: 8) swap mean 19 (index: 9)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 1: mean 15 (index: 0)  ->  mean 6 (index: 1)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 1: mean 6 (index: 0) swap mean 15 (index: 1)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 1: mean 15 (index: 1)  ->  mean 13 (index: 2)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 1: mean 13 (index: 1) swap mean 15 (index: 2)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 1: mean 15 (index: 2)  ->  mean 13 (index: 3)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 1: mean 13 (index: 2) swap mean 15 (index: 3)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 1: mean 15 (index: 3)  ->  mean 9 (index: 4)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 1: mean 9 (index: 3) swap mean 15 (index: 4)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 1: mean 15 (index: 4)  ->  mean 12 (index: 5)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 1: mean 12 (index: 4) swap mean 15 (index: 5)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 1: mean 15 (index: 5)  ->  mean 6 (index: 6)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 1: mean 6 (index: 5) swap mean 15 (index: 6)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 1: mean 15 (index: 6)  ->  mean 14 (index: 7)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 1: mean 14 (index: 6) swap mean 15 (index: 7)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 2: mean 13 (index: 2)  ->  mean 9 (index: 3)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 2: mean 9 (index: 2) swap mean 13 (index: 3)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 2: mean 13 (index: 3)  ->  mean 12 (index: 4)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 2: mean 12 (index: 3) swap mean 13 (index: 4)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 2: mean 13 (index: 4)  ->  mean 6 (index: 5)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 2: mean 6 (index: 4) swap mean 13 (index: 5)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 3: mean 13 (index: 1)  ->  mean 9 (index: 2)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 3: mean 9 (index: 1) swap mean 13 (index: 2)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 3: mean 13 (index: 2)  ->  mean 12 (index: 3)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 3: mean 12 (index: 2) swap mean 13 (index: 3)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 3: mean 13 (index: 3)  ->  mean 6 (index: 4)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 3: mean 6 (index: 3) swap mean 13 (index: 4)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 4: mean 12 (index: 2)  ->  mean 6 (index: 3)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 4: mean 6 (index: 2) swap mean 12 (index: 3)
+
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: start iteration 5: mean 9 (index: 1)  ->  mean 6 (index: 2)
+янв. 28, 2023 2:58:51 PM SeminarDZ_02.dz03 bubbleSortArray
+INFO: swap  iteration 5: mean 6 (index: 1) swap mean 9 (index: 2)
+
