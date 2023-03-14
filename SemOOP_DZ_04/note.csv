@@ -1,0 +1,5 @@
+id=1, creatDateTime: 02.02.2023 9:25, task: 'Task1', priority: HIGH -> deadline: 26 hours, avtor: Petrov
+id=2, creatDateTime: 12.02.2023 12:25, task: 'Task2', priority: LOW -> deadline: 30 day, avtor: Sidorov
+id=3, creatDateTime: 12.03.2023 20:15, task: 'Task3', priority: LOW -> deadline: 20day, avtor: Petrov
+id=4, creatDateTime: 14.03.2023 15:00, task: 'Task4', priority: LOW -> deadline: 28 day, avtor: Sidorov
+id=5, creatDateTime: 14.03.2023 16:00, task: 'Task5 task', priority: MEDIUM -> deadline: 4 day, avtor: Krotov
