@@ -1,13 +1,16 @@
 package SemOOP_DZ_04;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+
 public class Task<T> {
     
     private int id;
-    private String createDate;
-    private String createTime;
+    private LocalDate createDate;
+    private LocalTime createTime;
     private T notation;
-    private String priority;
-    private String deadline;
+    private int priority;
+    private LocalDate deadline;
     private String author;
 
     public Task(int id) {
@@ -15,7 +18,7 @@ public class Task<T> {
         this.createDate = null;
         this.createTime = null;
         this.notation = null;
-        this.priority = null;
+        this.priority = 0;
         this.deadline = null;
         this.author = null;
     }
@@ -28,11 +31,11 @@ public class Task<T> {
         return id;
     }
 
-    public String getCreateDate() {
+    public LocalDate getCreateDate() {
         return createDate;
     }
 
-    public String getCreateTime() {
+    public LocalTime getCreateTime() {
         return createTime;
     }
 
@@ -40,11 +43,11 @@ public class Task<T> {
         return notation;
     }
 
-    public String getPriority() {
+    public int getPriority() {
         return priority;
     }
 
-    public String getDeadline() {
+    public LocalDate getDeadline() {
         return deadline;
     }
 
@@ -56,12 +59,12 @@ public class Task<T> {
     //     this.id = id;
     // }
     
-    public Task<T> setCreateDate(String createDate) {
+    public Task<T> setCreateDate(LocalDate createDate) {
         this.createDate = createDate;
         return this;
     }
 
-    public Task<T> setCreateTime(String createTime) {
+    public Task<T> setCreateTime(LocalTime createTime) {
         this.createTime = createTime;
         return this;
     }
@@ -71,12 +74,12 @@ public class Task<T> {
         return this;
     }
 
-    public Task<T> setPriority(String priority) {
+    public Task<T> setPriority(int priority) {
         this.priority = priority;
         return this;
     }
 
-    public Task<T> setDeadline(String deadline) {
+    public Task<T> setDeadline(LocalDate deadline) {
         this.deadline = deadline;
         return this;
     }
@@ -88,7 +91,7 @@ public class Task<T> {
 
     @Override
     public String toString() {
-        return String.format("id=%d, creatDateTime: %s %s, task: '%s', priority: %s -> deadline: %s, avtor: %s",
+        return String.format("id=%d, creatDateTime: %s %s, task: '%s', priority: %d -> deadline: %s, avtor: %s",
          id, createDate, createTime, notation, priority, deadline, author);
     }
 

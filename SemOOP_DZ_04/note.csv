@@ -3,3 +3,7 @@ id=2, creatDateTime: 12.02.2023 12:25, task: 'Task2', priority: LOW -> deadline:
 id=3, creatDateTime: 12.03.2023 20:15, task: 'Task3', priority: LOW -> deadline: 20day, avtor: Petrov
 id=4, creatDateTime: 14.03.2023 15:00, task: 'Task4', priority: LOW -> deadline: 28 day, avtor: Sidorov
 id=5, creatDateTime: 14.03.2023 16:00, task: 'Task5 task', priority: MEDIUM -> deadline: 4 day, avtor: Krotov
+id=6, creatDateTime: 15.03.2023 10:00, task: 'task6 566', priority: 1 -> deadline: 15.03 16:00, avtor: fedor
+id=7, creatDateTime: 2023-03-15 10:00, task: 'Task 7 786', priority: 1 -> deadline: 2023-03-16, avtor: petay
+id=8, creatDateTime: 2023-03-15 10:00, task: 'Task8 9vty', priority: 2 -> deadline: 2023-04-01, avtor: feday
+id=9, creatDateTime: 2023-03-15 15:20, task: 'Task9 fgrtytj', priority: 3 -> deadline: 2023-04-25, avtor: Nikolay

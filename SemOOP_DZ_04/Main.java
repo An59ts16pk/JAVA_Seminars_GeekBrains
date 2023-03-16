@@ -16,6 +16,8 @@ package SemOOP_DZ_04;
 
 import java.io.IOException;
 import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.LocalTime;
 
 public class Main {
     public static Scanner input = new Scanner(System.in);
@@ -26,7 +28,7 @@ public class Main {
         //     .setCreateDate("02.02.2023")
         //     .setCreateTime("9:25")
         //     .setNotation("Task1")
-        //     .setPriority("HIGH")
+        //     .setPriority(1)
         //     .setDeadline("26 hours")
         //     .setAuthor("Petrov"));
 
@@ -35,7 +37,7 @@ public class Main {
         //     .setCreateDate("12.02.2023")
         //     .setCreateTime("12:25")
         //     .setNotation("Task2")
-        //     .setPriority("LOW")
+        //     .setPriority(10)
         //     .setDeadline("30 day")
         //     .setAuthor("Sidorov"));
 
@@ -57,31 +59,35 @@ public class Main {
                 rf1.loadOfCSV();
 
             } else if (res.equals("2")) {
-                String priorZ = "";
                 System.out.println("\nВыбрано действие - добавить запись: ");
 
                 System.out.println("Введите номер задачи: ");
                 int num = input.nextInt();
                 input.nextLine();
-                System.out.println("Введите дату записи задачи: ");
-                String dateZ = input.nextLine();
-                System.out.println("Введите время записи задачи: ");
-                String timeZ = input.nextLine();
+                
+                System.out.println("Введите дату записи задачи - год, месяц, день через пробел: ");
+                String[] tempD = input.nextLine().split(" ");
+                int[] tmpD =  InputParser.inputPars(tempD);
+                LocalDate dateZ = LocalDate.of(tmpD[0], tmpD[1], tmpD[2]);
+
+                System.out.println("Введите время записи задачи - часы, минуты через пробел: ");
+                String[] tempT = input.nextLine().split(" ");
+                int[] tmpT = InputParser.inputPars(tempT);
+                LocalTime timeZ = LocalTime.of(tmpT[0], tmpT[1]);
+
                 System.out.println("Введите описание задачи: ");
                 String taskZ = input.nextLine();
 
-                System.out.println("Введите приоритет задачи (low; medium; high): ");
-                String tmp = input.next();
-                if (tmp.equals("low")) {
-                    priorZ = "LOW";
-                } else if (tmp.equals("medium")) {
-                    priorZ = "MEDIUM";
-                } else if (tmp.equals("high")) {
-                    priorZ = "HIGH";
-                }
+                System.out.println("Введите приоритет задачи: 1 - высокий, 2 - средний, 3 - низкий: ");
+                int priorZ = input.nextInt();
                 input.nextLine();
-                System.out.println("Введите краний срок задачи: ");
-                String deadLZ = input.nextLine();
+                
+                System.out.println("Введите дату кранего срока задачи - год, месяц, день через пробел: ");
+                String[] temp = input.nextLine().split(" ");
+                int[] tmp = InputParser.inputPars(temp);
+                //LocalDate deadLZ = LocalDate.of(2023, 03, 16);
+                LocalDate deadLZ = LocalDate.of(tmp[0], tmp[1], tmp[2]);
+
                 System.out.println("Введите автора задачи: ");
                 String avt = input.nextLine();
 
